@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Setting up all the things
 os.environ['PATH'] += r"C:/src/SeleniumChrome"
 options = webdriver.ChromeOptions()
 prefs = {"download.default_directory": "D:\\Downloads\\LibgenBooks"}
